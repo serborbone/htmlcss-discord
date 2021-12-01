@@ -142,3 +142,38 @@ nav {
   background-color: #23272A;
   color: #fff;
 }
+
+/* Section con colonne img e text */
+
+.section-col {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-col::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section-col .col-img {
+  width: 65%;
+  float: left;
+}
+
+.section-col .col-text {
+  width: 35%;
+  float: left;
+}
+
+.col-text .col-title {
+  
+  font-size: 3em;
+  margin-top: 32px;
+  margin-bottom: 40px;
+  color: #23272A;
+}
+
+.col-text .col-par {
+  font-size: 1.3em;
+}

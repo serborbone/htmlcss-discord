@@ -88,6 +88,31 @@ nav {
 }
 
 .title-jumbo {
-  width: 55%;
+  width: 68%;
   margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.title-jumbo .title-jumbo {
+  color: #fff;
+  font-size: 3em;
+}
+
+.title-jumbo .text-jumbo {
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.button {
+  border-radius: 40px;
+  padding: 15px;
+  font-size: 1.2em;
+}
+
+.title-jumbo .link-jumbo a {
+  text-decoration: none;
+  background-color: #fff;
 }

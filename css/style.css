@@ -147,7 +147,7 @@ nav {
 
 .section-col {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 250px;
 }
 
 .section-col::after {
@@ -157,14 +157,47 @@ nav {
 }
 
 .section-col .col-img {
-  width: 65%;
+  width: 55%;
   float: left;
 }
 
+.section-col .col-img img {
+  width: 100%;
+}
+
 .section-col .col-text {
-  width: 35%;
+  width: 45%;
   float: left;
 }
+
+/* Float del testo a destra del contenitore */
+
+.col-text .text-float {
+  width: 70%;
+  float: right;
+}
+
+/*** INIZIO width e float 
+    seconda sezione colonne txt e img ***/
+
+.section-col .col-text.text-col-2 {
+  width: 45%;
+}
+
+.section-col .col-img.img-col-2 {
+  width: 55%;
+}
+
+/* Testo della seconda sezione 
+      floattato a sx */
+
+.text-col-2 .text-float {
+  float: left;
+}
+
+/**** FINE seconda sezione 
+      colonne txt e img ****/
+
 
 .col-text .col-title {
   
@@ -176,4 +209,67 @@ nav {
 
 .col-text .col-par {
   font-size: 1.3em;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/* Ultima sezione fondo Main */
+
+.section-bottom {
+  text-align: center;
+}
+
+.bottom-text {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bottom-text .b-title {
+  font-size: 3em;
+  color: #23272A;
+}
+
+.bottom-text .b-par {
+  margin-top: 20px;
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.section-bottom .bottom-img img {
+  width: 100%;
+}
+
+/* h2 e link download */
+
+.b-text-second {
+  margin-bottom: 100px;
+}
+
+
+.b-text-second .wrap {
+  width: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.b-text-second .b-title {
+  padding-top: 40px;
+  font-size: 2em;
+}
+
+.b-text-second .back-absolute {
+  background: url('../img/stars.svg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.b-text-second .btn-bottom {
+  display: inline-block;
+  background-color: #8EA1E1;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 30px;
 }

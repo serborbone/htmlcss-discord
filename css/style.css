@@ -86,3 +86,8 @@ nav {
   background-repeat: no-repeat;
   min-height: 570px;
 }
+
+.title-jumbo {
+  width: 55%;
+  margin: 0 auto;
+}

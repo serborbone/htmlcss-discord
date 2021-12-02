@@ -391,3 +391,22 @@ nav {
   border-top: 1px solid #7289DA;
   margin-top: 40px;
 }
+
+/* Riga footer logo e link registr. */
+
+.footer-logo-reg {
+  margin-top: 30px;
+}
+
+.footer-logo-reg .btn-foot {
+  float: right;
+  background-color: #8EA1E1;
+  font-size: 0.9em;
+  border-radius: 40px;
+  padding: 10px 14px;
+}
+
+.footer-logo-reg .btn-foot a {
+  color: #fff;
+  text-decoration: none;
+}

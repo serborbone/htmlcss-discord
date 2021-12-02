@@ -281,20 +281,20 @@ nav {
   background-color: #23272A;
 }
 
+.footer-list .container {
+  padding-top: 80px;
+}
 
 .footer-list .footer-col-big {
   width: 30%;
-  height: 280px;
   float: left;
-  background-color: rgb(226, 43, 43);
+  /* background-color: rgb(226, 43, 43); */
 }
 
-.footer-list .footer-col{
+.footer-list .footer-col-s {
   width: calc(70% / 4);
-  height: 280px;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   float: left;
-  border-right: 1px solid red ;
 }
 
 .footer-list .container::after {
@@ -311,6 +311,7 @@ nav {
 .footer-col-big .col-big-h4 {
   font-size: 2em;
   margin-bottom: 17px;
+  color: #7289DA;
 }
 
 .footer-col-big .lang-foot {
@@ -356,4 +357,37 @@ nav {
 
 .footer-col-big .wrap-w {
   width: 70%;
+}
+
+/* stile colonne piccole */
+
+.footer-col-s .col-small-h5 {
+  font-size: 1.1em;
+    color: #7289DA;
+}
+
+.footer-col-s .col-s-list {
+  list-style: none;
+}
+
+.footer-col-s .col-s-list a {
+  display: block;
+  text-decoration: none;
+  padding-top: 12px;  
+  color: #fff;
+}
+
+/* clearfix float delle colonne*/
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Linea blu orizzontale */
+
+.blue-line {
+  border-top: 1px solid #7289DA;
+  margin-top: 40px;
 }

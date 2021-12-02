@@ -12,6 +12,11 @@ nav {
   background-color: #255EE9;
 }
 
+
+.jumbotron {
+  margin-bottom: 40px;
+}
+
 .container {
   max-width: 1180px;
   width: 68%;
@@ -76,6 +81,28 @@ nav {
   font-size: 0.9em;
   padding: 11px 14px;
   margin-right: 20px;
+}
+
+/* Hover button LINK */
+
+.btn-hover:hover {
+  box-shadow: 0 4px 20px 8px #7289DA;
+}
+
+#login a.btn-hover:hover {
+  color: #5865F2;
+}
+
+.link-jumbo a.btn-hover:hover {
+  color: #5865F2;
+}
+
+.b-text-second a.btn-hover:hover {
+  color: #5865F2;
+}
+
+.footer-logo-reg a.btn-hover:hover {
+  color: #5865F2;
 }
 
 /* Jumbotron */

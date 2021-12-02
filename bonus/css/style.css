@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+nav {
+  background-color: #255EE9;
+}
+
+.container {
+  max-width: 1180px;
+  width: 68%;
+  margin: 0 auto;
+}
+
+.row {
+  height: 80px;
+  line-height: 80px;
+}
+
+/* CLEARFIX */
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Logo navbar */
+
+#logo {
+  width: 15%;
+  float: left;
+}
+
+#logo img {
+  vertical-align: middle;
+}
+
+/* Menu centrale */
+
+#menu {
+  width: 70%;
+  float: left;
+  text-align: center;
+}
+
+#menu ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+#menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Link Login */
+
+#login {
+  width: 15%;
+  float: right;
+  text-align: right;
+}
+
+#login a {
+  text-decoration: none;
+  border-radius: 40px;
+  background-color: #fff;
+  color: #000;
+  font-size: 0.9em;
+  padding: 11px 14px;
+  margin-right: 20px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+
+/* titolo h1*/
+
+.content-jumbo {
+  width: 68%;
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.content-jumbo .title-jumbo {
+  color: #fff;
+  font-size: 3.5em;
+}
+
+/* Testo */
+
+.content-jumbo .text-jumbo {
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.button {
+  border-radius: 40px;
+  padding: 15px 30px;
+  font-size: 1.3em;
+}
+
+/* Link jumbotron */
+
+.content-jumbo .link-jumbo .button {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.content-jumbo .link-jumbo .btn-white {
+  background-color: #fff;
+  margin-right: 20px;
+}
+
+/* classe freccia link bianco */
+
+.fa-solid {
+  font-size: 0.7em;
+  margin-right: 7px;
+}
+
+.content-jumbo .link-jumbo .btn-black {
+  background-color: #23272A;
+  color: #fff;
+}
+
+/* Section con colonne img e text */
+
+.bg-color-wave-g {
+  background-color: #f3f4f5;
+}
+
+/* WAVE Background */
+
+/* Wave Grey*/
+.svg-wave-g {
+  height: 220px;
+  background-image: url('../img/grey-wave.png');
+  background-position: center;
+  background-size: cover;
+}
+
+/* Wave White*/
+.svg-wave-w {
+  height: 220px;
+  background-image: url('../img/white-wave.png');
+  background-position: center;
+   background-color: #f3f4f5;
+}
+
+main .container {
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+.section-col::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section-col .col-img {
+  width: 55%;
+  float: left;
+}
+
+.section-col .col-img img {
+  width: 100%;
+}
+
+.section-col .col-text {
+  width: 45%;
+  float: left;
+}
+
+/* Float del testo a destra del contenitore */
+
+.col-text .text-float {
+  width: 70%;
+  float: right;
+}
+
+/*** INIZIO width e float 
+    seconda sezione colonne txt e img ***/
+
+.section-col .col-text.text-col-2 {
+  width: 45%;
+}
+
+.section-col .col-img.img-col-2 {
+  width: 55%;
+}
+
+/* Testo della seconda sezione 
+      floattato a sx */
+
+.text-col-2 .text-float {
+  float: left;
+}
+
+/**** FINE seconda sezione 
+      colonne txt e img ****/
+
+
+.col-text .col-title {
+  
+  font-size: 3em;
+  margin-top: 32px;
+  margin-bottom: 40px;
+  color: #23272A;
+}
+
+.col-text .col-par {
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/* Ultima sezione fondo Main */
+
+.section-bottom {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.bottom-text {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bottom-text .b-title {
+  font-size: 3em;
+  color: #23272A;
+}
+
+.bottom-text .b-par {
+  margin-top: 20px;
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.section-bottom .bottom-img img {
+  width: 100%;
+}
+
+/* h2 e link download */
+
+.b-text-second {
+  padding-bottom: 90px;
+}
+
+
+.b-text-second .wrap {
+  width: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.b-text-second .b-title {
+  padding-top: 40px;
+  font-size: 2em;
+}
+
+.b-text-second .back-absolute {
+  background: url('../img/stars.svg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.b-text-second .btn-bottom {
+  display: inline-block;
+  background-color: #8EA1E1;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+/* FOOTER */
+
+.footer-list {
+  height: 600px;
+  background-color: #23272A;
+}
+
+.footer-list .container {
+  padding-top: 80px;
+}
+
+.footer-list .footer-col-big {
+  width: 30%;
+  float: left;
+}
+
+.footer-list .footer-col-s {
+  width: calc(70% / 4);
+  float: left;
+}
+
+.footer-list .container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* COLONNA UNO */
+
+
+/* h4 colonna uno*/
+
+.footer-col-big .col-big-h4 {
+  font-size: 2em;
+  margin-bottom: 17px;
+  color: #7289DA;
+}
+
+.footer-col-big .lang-foot {
+  height: 15px;
+  color: #fff;
+}
+
+/* bandiera ita */
+
+.footer-col-big .lang-foot .ita {
+  vertical-align: middle;
+  padding-left: 5px;
+  font-size: 0.8em;
+}
+
+/* icona arrow */
+
+.footer-col-big  .lang-foot .fas {
+  font-size: 0.6em;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+.footer-col-big .lang-foot img {
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* icone social */
+
+.footer-col-big .social {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.footer-col-big .social .fab {
+  font-size: 1.2em;
+  padding-right: 18px;
+}
+
+/* impostato width per allineare meglio
+    l'intero blocco a sinistra del div*/
+
+.footer-col-big .wrap-w {
+  width: 70%;
+}
+
+/* stile colonne piccole */
+
+.footer-col-s .col-small-h5 {
+  font-size: 1.1em;
+    color: #7289DA;
+}
+
+.footer-col-s .col-s-list {
+  list-style: none;
+}
+
+.footer-col-s .col-s-list a {
+  display: block;
+  text-decoration: none;
+  padding-top: 12px;  
+  color: #fff;
+}
+
+/* clearfix float delle colonne*/
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Linea blu orizzontale */
+
+.blue-line {
+  border-top: 1px solid #7289DA;
+  margin-top: 40px;
+}
+
+/* Riga footer logo e link registr. */
+
+.footer-logo-reg {
+  margin-top: 30px;
+}
+
+.footer-logo-reg .btn-foot {
+  float: right;
+  background-color: #8EA1E1;
+  font-size: 0.9em;
+  border-radius: 40px;
+  padding: 10px 14px;
+}
+
+.footer-logo-reg .btn-foot a {
+  color: #fff;
+  text-decoration: none;
+}
